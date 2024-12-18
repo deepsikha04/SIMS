@@ -1,0 +1,45 @@
+/* views.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.student-list {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.student {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.student p {
+    margin: 5px 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.student p:first-child {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.student p:nth-child(odd) {
+    color: #555;
+}

@@ -1,0 +1,24 @@
+.container{
+	height:700px;
+	width:1650px;
+	background-color:white;
+	background-image:url("background.jpg");
+	background-size:cover;
+}
+h1{
+	text-align:center;
+	color:red;
+}
+nav{
+	z-index:1;
+	background-color:skyblue;
+	position:fixed;
+	top:150px;
+	left:50px;
+	padding-top:20px;
+	font-size:30px;
+	height:400px;
+	width:250px;
+	margin:5px;
+	padding-left:40px;
+}

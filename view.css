@@ -1,0 +1,113 @@
+/* view.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.student-list {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f8f9fa;
+}
+
+tr:hover td {
+    background-color: #d1ecf1;
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.student {
+    margin-bottom: 20px;
+}
+
+div.student {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .student-list {
+        width: 95%;
+    }
+
+    th, td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    tr:nth-child(even) td {
+        background-color: transparent;
+    }
+
+    th {
+        text-align: right;
+    }
+
+    td {
+        text-align: left;
+        border-bottom: none;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+        color: #333;
+    }
+}

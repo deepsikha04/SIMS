@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<style>
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .panel {
+    display: none;
+  }
+  #student-panel.active {
+    display: block;
+  }
+  #admin-panel.active {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <ul>
+    <li><a href="#" onclick="showPanel('student-panel')">Student</a></li>
+    <li><a href="#" onclick="showPanel('admin-panel')">Admin</a></li>
+  </ul>
+
+  <div id="student-panel" class="panel">
+    <h2>Student Login</h2>
+    <form action="student_login.php" method="post">
+      <label for="student_username">Username:</label><br>
+      <input type="text" id="student_username" name="student_username"><br>
+      <label for="student_password">Password:</label><br>
+      <input type="password" id="student_password" name="student_password"><br><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+  <div id="admin-panel" class="panel">
+    <h2>Admin Login</h2>
+    <form action="admin_login.php" method="post">
+      <label for="admin_username">Username:</label><br>
+      <input type="text" id="admin_username" name="admin_username"><br>
+      <label for="admin_password">Password:</label><br>
+      <input type="password" id="admin_password" name="admin_password"><br><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</div>
+
+<script>
+  function showPanel(panelId) {
+    var panels = document.querySelectorAll('.panel');
+    for (var i = 0; i < panels.length; i++) {
+      panels[i].classList.remove('active');
+    }
+    document.getElementById(panelId).classList.add('active');
+  }
+</script>
+
+</body>
+</html>

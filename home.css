@@ -1,0 +1,157 @@
+/* adminpanel.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+/* Icons */
+.nav a i {
+    margin-right: 8px;
+}
+
+/* Additional Styling for Links */
+.nav a.home {
+    background-color: #4CAF50;
+}
+
+.nav a.view {
+    background-color: #2196F3;
+}
+
+.nav a.upload {
+    background-color: #FF9800;
+}
+
+.nav a.attendance {
+    background-color: #9C27B0;
+}
+
+.nav a.fee {
+    background-color: #FF5722;
+}
+
+.nav a.logoff {
+    background-color: #F44336;
+}
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.system-info, .contact-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us label {
+    margin-top: 10px;
+}
+
+.contact-us input, .contact-us textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-us button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: -164px;
+}

@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+/* Icons */
+.nav a i {
+    margin-right: 8px;
+}
+
+/* Additional Styling for Links */
+.nav a.home {
+    background-color: #4CAF50;
+}
+
+.nav a.view {
+    background-color: #2196F3;
+}
+
+.nav a.upload {
+    background-color: #FF9800;
+}
+
+.nav a.attendance {
+    background-color: #9C27B0;
+}
+
+.nav a.fee {
+    background-color: #FF5722;
+}
+
+.nav a.logoff {
+    background-color: #F44336;
+}
+/* Reset some default browser styles */
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #0066cc;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.student-list {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.user-info {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+.student {
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 5px solid #0066cc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.student p {
+    margin: 5px 0;
+}

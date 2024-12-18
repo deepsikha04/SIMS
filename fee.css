@@ -1,0 +1,44 @@
+/* fee.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.student-list {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.student {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.student p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.student p:nth-child(1) {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.student p:nth-child(2) {
+    color: #555;
+}
